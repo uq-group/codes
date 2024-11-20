@@ -6,7 +6,7 @@
 
 ## Physics-informed Neural Operators
 
-Folder of "PI-DCON-main" contains the implementation of Physics-informed discretization-independent deep compositional operator network. If you think that the work of the PI-DCON is useful in your research, please consider citing our paper in your manuscript:
+Folder of "PI-DCON" contains the implementation of Physics-informed discretization-independent deep compositional operator network. If you think that the work of the PI-DCON is useful in your research, please consider citing our paper in your manuscript:
 ```
 @article{zhong2024physics,
   title={Physics-informed discretization-independent deep compositional operator network},
@@ -19,7 +19,7 @@ Folder of "PI-DCON-main" contains the implementation of Physics-informed discret
 }
 ```
 
-Folder of "PI-GANO-main" contains the implementation of Physics-Informed Geometry-Aware Neural Operator. If you think that the work of the PI-GANO is useful in your research, please consider citing our paper in your manuscript:
+Folder of "PI-GANO" contains the implementation of Physics-Informed Geometry-Aware Neural Operator. If you think that the work of the PI-GANO is useful in your research, please consider citing our paper in your manuscript:
 ```
 @misc{zhong2024physicsinformedgeometryawareneuraloperator,
       title={Physics-Informed Geometry-Aware Neural Operator}, 
