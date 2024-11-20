@@ -1,6 +1,6 @@
 # UQ Group
 
-## Graph Neural Operator
+## Graph Neural Networks
 
 ## Traffic surrogate modeling
 
