@@ -2,8 +2,9 @@ import torch
 import torch.nn as nn
 import math
 
-''' ------------------------- baseline -------------------------- '''
+''' ------------------------- baselines -------------------------- '''
 
+# physics-informed DCON
 class PI_DCON(nn.Module):
 
     def __init__(self, config):
@@ -56,6 +57,7 @@ class PI_DCON(nn.Module):
 
         return u
 
+# physics-informed pointNet
 class PI_PN(nn.Module):
 
     def __init__(self, config):
@@ -101,6 +103,7 @@ class PI_PN(nn.Module):
 
         return u
 
+# physics-informed pointNet for fixed PDE parameters
 class PI_PN_only_geo(nn.Module):
 
     def __init__(self, config):
@@ -146,7 +149,7 @@ class PI_PN_only_geo(nn.Module):
 
         return u
 
-''' ------------------------- New models -------------------------- '''
+''' ------------------------- PI-GANO -------------------------- '''
 
 class DG(nn.Module):
 
@@ -279,6 +282,7 @@ class DG_other_embedding(nn.Module):
 
         return Domain_enc
 
+# Use addition as feature coupling
 class PI_GANO_add(nn.Module):
 
     def __init__(self, config):
@@ -346,6 +350,7 @@ class PI_GANO_add(nn.Module):
         
         return u
 
+# Use elementwise multiplication as feature coupling
 class PI_GANO_mul(nn.Module):
 
     def __init__(self, config):
@@ -415,6 +420,7 @@ class PI_GANO_mul(nn.Module):
 
 ''' ------------------------- boundary embedding -------------------------- '''
 
+# use high-level feature parameters to represent domain geometry
 class PI_GANO_geo(nn.Module):
 
     def __init__(self, config, geo_feature_dim):
@@ -488,3 +494,22 @@ class PI_GANO_geo(nn.Module):
         
         return u
 
+''' ------------------------- New model -------------------------- '''
+
+class New_model_darcy(nn.Module):
+
+    def __init__(self, config):
+        super().__init__()
+
+    def forward(self, x_coor, y_coor, par, par_flag, shape_coor, shape_flag):
+        '''
+        par: (B, M', 3)
+        par_flag: (B, M')
+        x_coor: (B, M)
+        y_coor: (B, M)
+        z_coor: (B, M)
+
+        return u: (B, M)
+        '''
+        
+        return None
