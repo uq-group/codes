@@ -21,14 +21,14 @@ Folder of "PI-DCON" contains the implementation of Physics-informed discretizati
 
 Folder of "PI-GANO" contains the implementation of Physics-Informed Geometry-Aware Neural Operator. If you think that the work of the PI-GANO is useful in your research, please consider citing our paper in your manuscript:
 ```
-@misc{zhong2024physicsinformedgeometryawareneuraloperator,
-      title={Physics-Informed Geometry-Aware Neural Operator}, 
-      author={Weiheng Zhong and Hadi Meidani},
-      year={2024},
-      eprint={2408.01600},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2408.01600}, 
+@article{zhong2025physics,
+  title={Physics-Informed Geometry-Aware Neural Operator},
+  author={Zhong, Weiheng and Meidani, Hadi},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={434},
+  pages={117540},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
