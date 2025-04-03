@@ -1,8 +1,7 @@
 # UQ Group
 
-## Graph Neural Networks
+## Traffic flow learning
 
-## Traffic surrogate modeling
 
 ## Physics-informed Neural Operators
 
