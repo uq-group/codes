@@ -1,0 +1,74 @@
+
+Currently Loaded Modules:
+  1) openmpi/4.1.6
+
+ 
+
+job is starting on gpua062.delta.ncsa.illinois.edu
+/u/wzhong/miniconda3/bin/python3
+# packages in environment at /u/wzhong/miniconda3:
+#
+# Name                    Version                   Build  Channel
+pytorch-wavelets          1.3.0                    pypi_0    pypi
+siren-pytorch             0.1.7                    pypi_0    pypi
+torch.Size([300, 200, 200]) torch.Size([300, 200, 200]) torch.Size([300, 4, 200, 200]) torch.Size([300, 4, 200, 200]) torch.Size([300, 200, 200]) torch.Size([300])
+current epoch: 0
+average relative error: 0.2923814684152603
+saved new model.
+current epoch: 100
+average relative error: 0.2650119016567866
+saved new model.
+current epoch: 200
+average relative error: 0.25807179510593414
+saved new model.
+current epoch: 300
+average relative error: 0.2910471493999163
+current epoch: 400
+average relative error: 0.27692594279845556
+torch.Size([300, 200, 200]) torch.Size([300, 200, 200]) torch.Size([300, 4, 200, 200]) torch.Size([300, 4, 200, 200]) torch.Size([300, 200, 200]) torch.Size([300])
+current epoch: 0
+average relative error: 0.33837921420733136
+saved new model.
+current epoch: 100
+average relative error: 0.3115630656480789
+saved new model.
+current epoch: 200
+average relative error: 0.30711957613627117
+saved new model.
+current epoch: 300
+average relative error: 0.3003620445728302
+saved new model.
+current epoch: 400
+average relative error: 0.30080705384413403
+torch.Size([300, 200, 200]) torch.Size([300, 200, 200]) torch.Size([300, 4, 200, 200]) torch.Size([300, 4, 200, 200]) torch.Size([300, 200, 200]) torch.Size([300])
+No pre-trained model.
+current epoch: 0
+average relative error: 0.6025040209293365
+saved new model.
+current epoch: 100
+average relative error: 0.31041276852289834
+saved new model.
+current epoch: 200
+average relative error: 0.26548785070578257
+saved new model.
+current epoch: 300
+average relative error: 0.24584703743457795
+saved new model.
+current epoch: 400
+average relative error: 0.23742275883754094
+saved new model.
+torch.Size([300, 200, 200]) torch.Size([300, 200, 200]) torch.Size([300, 4, 200, 200]) torch.Size([300, 4, 200, 200]) torch.Size([300, 200, 200]) torch.Size([300])
+No pre-trained model.
+current epoch: 0
+average relative error: 0.6111395498116811
+saved new model.
+current epoch: 100
+average relative error: 0.6053609073162078
+saved new model.
+current epoch: 200
+average relative error: 0.5485905547936757
+saved new model.
+current epoch: 300
+average relative error: 0.5540519565343857
+current epoch: 400
+average relative error: 0.5643265763918559
