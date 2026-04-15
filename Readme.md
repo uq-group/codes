@@ -1,6 +1,5 @@
 # UQ Group
 
-## Traffic flow learning
 
 
 ## Physics-informed Neural Operators
